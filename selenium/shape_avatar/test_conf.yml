@@ -1,0 +1,26 @@
+test_config:
+    word_length:
+        word_length: 10
+        browser: safari
+        xpaths: ['//*[@id="content"]/div[1]/div[2]','//*[@id="content"]/div[2]/div[2]','//*[@id="content"]/div[3]/div[2]']
+
+    avatar:
+        avatar: punisher
+
+default_test_config:
+        stretch: 1
+        browser: chrome
+        urls: ["url1", "url2"]
+        skip: false
+
+avatar_src_map:
+   punisher: "https://the-internet.herokuapp.com/img/avatars/Original-Facebook-Geek-Profile-Avatar-3.jpg"
+   avatar1: "https://the-internet.herokuapp.com/img/avatars/Original-Facebook-Geek-Profile-Avatar-1.jpg"
+   avatar2: "https://the-internet.herokuapp.com/img/avatars/Original-Facebook-Geek-Profile-Avatar-2.jpg"
+   avatar4: "https://the-internet.herokuapp.com/img/avatars/Original-Facebook-Geek-Profile-Avatar-4.jpg"
+   avatar5: "https://the-internet.herokuapp.com/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg"
+   avatar6: "https://the-internet.herokuapp.com/img/avatars/Original-Facebook-Geek-Profile-Avatar-6.jpg"
+
+url_map:
+        url1: "https://the-internet.herokuapp.com/dynamic_content"
+        url2: "https://the-internet.herokuapp.com/dynamic_content?with_content=static"
